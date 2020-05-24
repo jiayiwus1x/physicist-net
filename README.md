@@ -5,7 +5,7 @@
 
 ## Description
 
-Every wonder who was the most well-connected Physicist? I use a naive approach to answer this question. Wikipedia has a list of [physicsts](https://en.wikipedia.org/wiki/List_of_physicists). I scrape the Wikipedia page of each Physicist on this list and construct a graph object in the following way:
+Ever wonder who was the most well-connected Physicist? I use a naive approach to answer this question. Wikipedia has a list of [physicsts](https://en.wikipedia.org/wiki/List_of_physicists). I scrape the Wikipedia page of each Physicist on this list and construct a graph object in the following way:
 
 Every node in the graph respresents a Physicist.
 For every wikipedia page, I count the number of unique Physicists and add an edge between every pair present on that page.
